@@ -39,9 +39,9 @@ if [[ -f "$i3_includes_file" ]]; then
     fi
   done
 
-  if [[ "$1" == "restart" || "$1" == "reload" ]]; then
-    i3-msg "$1"
-  fi
+  # if [[ "$1" == "restart" || "$1" == "reload" ]]; then
+  #   i3-msg "$1"
+  # fi
 else
   echo "ERROR:"
   echo "Please create the configs import file:"
